@@ -1,0 +1,5 @@
+from qiskit import QuantumCircuit
+# Create quantum circuit with 3 qubits and 3 classical bits
+# (we'll explain why we need the classical bits later)
+qc = QuantumCircuit(3, 3)
+qc.draw()  # returns a drawing of the circuit
